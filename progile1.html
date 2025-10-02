@@ -1,0 +1,292 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./src/style.css">
+   <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+
+    
+    <title>portifolio</title>
+  </head>
+  <body class=" bg-gradient-to-r from-blue-100 to-blue-300">
+    <header class="bg-white shadow-md sticky top-0 z-50">
+    <div class="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
+      <a href="index.html" 
+         class="flex items-center gap-2 text-blue-600 hover:text-blue-700 font-semibold transition-colors">
+        <i class="ri-arrow-left-line text-xl"></i>
+        Back to Home
+      </a>
+      <h1 class="text-2xl font-bold bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 bg-clip-text text-transparent">
+        Portfolio
+      </h1>
+    </div>
+  </header>
+
+  <!-- Main Portfolio Content -->
+  <main class="max-w-7xl mx-auto px-4 py-8">
+    <div class="grid md:grid-cols-3 gap-6 bg-white rounded-2xl shadow-xl p-6 relative">
+      
+      <!-- Header Section -->
+      <div class="md:col-span-3 text-center md:text-left mb-6">
+        <p class="text-4xl font-extrabold tracking-tight">
+          <span class="bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 bg-clip-text text-transparent">
+            Best Raissa Akariza
+          </span>
+        </p>
+        <p class="mt-2 text-base font-semibold text-gray-700 flex items-center justify-center md:justify-start gap-2">
+          <i class="ri-code-s-slash-line text-blue-500 text-lg"></i>
+          Aspiring Software Engineer &middot; Front-End Developer
+        </p>
+        <p class="mt-1 text-sm text-gray-600 italic">
+          "Building ideas into reality through tech & creativity"
+        </p>
+      </div>
+
+      <!-- Photo Section -->
+      <div class="md:col-span-1 relative">
+        <img class="w-full h-auto md:h-[700px] object-cover rounded-2xl shadow-xl brightness-90" 
+             src="./public/IMG_9790@130639954.jpg" 
+             alt="Best Raissa Akariza">
+        
+        <!-- Contact Info Overlay (Desktop) -->
+        <div class="hidden md:block absolute bottom-6 left-6 bg-blue-900/90 backdrop-blur-sm text-white p-4 rounded-xl shadow-lg">
+          <p class="text-sm font-bold mb-2 flex items-center gap-2">
+            <i class="ri-phone-line"></i>
+            Contact Information
+          </p>
+          <p class="text-xs">+250 07889113366</p>
+          <p class="text-xs">KN 185 ST</p>
+          <p class="text-xs">Nyarugenge, Kigali City</p>
+        </div>
+      </div>
+
+      <!-- About & Goals Section -->
+      <div class="md:col-span-1 space-y-6">
+        <div>
+          <h2 class="text-lg font-bold text-gray-900 mb-3 flex items-center gap-2">
+            <i class="ri-user-line text-blue-500"></i>
+            About
+          </h2>
+          <p class="text-sm text-gray-600 leading-relaxed">
+            I am a passionate Computer Science student driven by a love for problem-solving and innovation. 
+            I enjoy exploring programming, design, and technology as powerful tools to create meaningful impact. 
+            Beyond academics, I find joy in playing basketball, watching movies, and connecting with people—because 
+            while technology excites me, it is human connection and making a difference that truly inspires me.
+          </p>
+        </div>
+
+        <div>
+          <h2 class="text-lg font-bold text-gray-900 mb-3 flex items-center gap-2">
+            <i class="ri-target-line text-purple-500"></i>
+            Goals
+          </h2>
+          <ul class="space-y-2">
+            <li class="text-sm text-gray-600 flex items-start gap-2">
+              <i class="ri-checkbox-circle-fill text-blue-500 mt-0.5"></i>
+              <span>Enhance Coding Skills</span>
+            </li>
+            <li class="text-sm text-gray-600 flex items-start gap-2">
+              <i class="ri-checkbox-circle-fill text-blue-500 mt-0.5"></i>
+              <span>Collaboration Growth</span>
+            </li>
+            <li class="text-sm text-gray-600 flex items-start gap-2">
+              <i class="ri-checkbox-circle-fill text-blue-500 mt-0.5"></i>
+              <span>Career Preparation</span>
+            </li>
+            <li class="text-sm text-gray-600 flex items-start gap-2">
+              <i class="ri-checkbox-circle-fill text-blue-500 mt-0.5"></i>
+              <span>Personal Balance</span>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Skills Table -->
+        <div>
+          <h2 class="text-lg font-bold text-gray-900 mb-3 flex items-center gap-2">
+            <i class="ri-lightbulb-line text-yellow-500"></i>
+            Skills Overview
+          </h2>
+          <div class="overflow-x-auto border border-gray-300 rounded-lg">
+            <table class="w-full text-left">
+              <thead>
+                <tr class="bg-gradient-to-r from-blue-50 to-purple-50 border-b border-gray-300">
+                  <th class="p-3 text-sm font-semibold border-r border-gray-300">Languages</th>
+                  <th class="p-3 text-sm font-semibold">Interpersonal Skills</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td class="p-3 text-sm text-gray-600 border-r border-gray-300">English, Kinyarwanda, French</td>
+                  <td class="p-3 text-sm text-gray-600">Teamwork, Problem-solving, Adaptability</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <!-- Personality -->
+        <div>
+          <h2 class="text-lg font-bold text-gray-900 mb-3 flex items-center gap-2">
+            <i class="ri-heart-line text-pink-500"></i>
+            Personality
+          </h2>
+          <div class="flex flex-wrap gap-2">
+            <span class="px-3 py-1 bg-blue-100 text-blue-700 text-xs font-semibold rounded-full">BALANCED</span>
+            <span class="px-3 py-1 bg-purple-100 text-purple-700 text-xs font-semibold rounded-full">KIND</span>
+            <span class="px-3 py-1 bg-pink-100 text-pink-700 text-xs font-semibold rounded-full">HOPEFUL</span>
+            <span class="px-3 py-1 bg-green-100 text-green-700 text-xs font-semibold rounded-full">CARING</span>
+            <span class="px-3 py-1 bg-indigo-100 text-indigo-700 text-xs font-semibold rounded-full">INTROVERTED</span>
+            <span class="px-3 py-1 bg-yellow-100 text-yellow-700 text-xs font-semibold rounded-full">CREATIVE</span>
+          </div>
+        </div>
+
+        <!-- Contact Info (Mobile) -->
+        <div class="md:hidden bg-blue-900 text-white p-4 rounded-xl">
+          <p class="text-sm font-bold mb-2 flex items-center gap-2">
+            <i class="ri-phone-line"></i>
+            Contact Information
+          </p>
+          <p class="text-xs">+250 07889113366</p>
+          <p class="text-xs">KN 185 ST</p>
+          <p class="text-xs">Nyarugenge, Kigali City</p>
+        </div>
+      </div>
+
+      <!-- Technical Skills & Hobbies Section -->
+      <div class="md:col-span-1 space-y-6">
+        <!-- Technical Skills -->
+        <div>
+          <h2 class="text-lg font-bold text-gray-900 mb-4 flex items-center gap-2">
+            <i class="ri-code-box-line text-green-500"></i>
+            Technical Skills
+          </h2>
+          <div class="space-y-4">
+            <div>
+              <div class="flex justify-between items-center mb-1">
+                <p class="text-sm font-medium text-gray-700">HTML</p>
+                <span class="text-xs text-gray-500">92%</span>
+              </div>
+              <div class="w-full bg-gray-200 rounded-full h-3">
+                <div class="bg-gradient-to-r from-green-400 to-green-600 h-3 rounded-full transition-all duration-500" style="width: 92%"></div>
+              </div>
+            </div>
+            <div>
+              <div class="flex justify-between items-center mb-1">
+                <p class="text-sm font-medium text-gray-700">CSS</p>
+                <span class="text-xs text-gray-500">42%</span>
+              </div>
+              <div class="w-full bg-gray-200 rounded-full h-3">
+                <div class="bg-gradient-to-r from-blue-400 to-blue-600 h-3 rounded-full transition-all duration-500" style="width: 42%"></div>
+              </div>
+            </div>
+            <div>
+              <div class="flex justify-between items-center mb-1">
+                <p class="text-sm font-medium text-gray-700">JAVASCRIPT</p>
+                <span class="text-xs text-gray-500">75%</span>
+              </div>
+              <div class="w-full bg-gray-200 rounded-full h-3">
+                <div class="bg-gradient-to-r from-yellow-400 to-yellow-600 h-3 rounded-full transition-all duration-500" style="width: 75%"></div>
+              </div>
+            </div>
+            <div>
+              <div class="flex justify-between items-center mb-1">
+                <p class="text-sm font-medium text-gray-700">GIT AND GITHUB</p>
+                <span class="text-xs text-gray-500">58%</span>
+              </div>
+              <div class="w-full bg-gray-200 rounded-full h-3">
+                <div class="bg-gradient-to-r from-purple-400 to-purple-600 h-3 rounded-full transition-all duration-500" style="width: 58%"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Hobbies Section -->
+        <div>
+          <h2 class="text-lg font-bold text-gray-900 mb-4 flex items-center gap-2">
+            <i class="ri-heart-fill text-red-500"></i>
+            Hobbies
+          </h2>
+          
+          <!-- Favorite Sound -->
+          <div class="mb-4">
+            <p class="text-sm font-semibold text-gray-700 mb-2 flex items-center gap-2">
+              <i class="ri-music-line text-blue-500"></i>
+              Favorite Sound
+            </p>
+            <audio controls class="w-full">
+              <source src="./public/Constant  Maverick City, Jordin Sparks, Anthony Gargiula  Ft.Chandler Moore (Official Music Video) - TRIBL.mp3" type="audio/mpeg">
+              Your browser does not support the audio element.
+            </audio>
+          </div>
+
+          <!-- Hobby Videos -->
+          <div class="grid grid-cols-2 gap-4">
+            <div class="flex flex-col items-center group">
+              <div class="relative overflow-hidden rounded-lg shadow-md">
+                <video src="./public/basketball.mp4" autoplay muted loop class="w-full group-hover:scale-110 transition-transform duration-300"></video>
+              </div>
+              <span class="mt-2 text-sm font-medium text-gray-700">Basketball</span>
+            </div>
+            <div class="flex flex-col items-center group">
+              <div class="relative overflow-hidden rounded-lg shadow-md">
+                <video src="./public/movies.mp4" autoplay muted loop class="w-full group-hover:scale-110 transition-transform duration-300"></video>
+              </div>
+              <span class="mt-2 text-sm font-medium text-gray-700">Movies</span>
+            </div>
+            <div class="flex flex-col items-center md:col-span-2 group">
+              <div class="relative overflow-hidden rounded-lg shadow-md">
+                <video src="./public/2620043-uhd_3840_2160_25fps.mp4" autoplay muted loop class="w-full group-hover:scale-110 transition-transform duration-300"></video>
+              </div>
+              <span class="mt-2 text-sm font-medium text-gray-700">Cooking</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Social Media Links -->
+        <div>
+          <h2 class="text-lg font-bold text-gray-900 mb-3 flex items-center gap-2">
+            <i class="ri-share-line text-blue-500"></i>
+            Connect With Me
+          </h2>
+          <div class="flex gap-4 flex-wrap">
+            <a href="https://instagram.com/akarizabest_r" target="_blank" 
+               class="hover:scale-110 transition-transform duration-200" 
+               title="Instagram">
+              <i class="ri-instagram-fill text-4xl bg-gradient-to-tr from-yellow-400 via-pink-500 to-purple-600 bg-clip-text text-transparent"></i>
+            </a>
+            <a href="https://twitter.com/bestraissa20" target="_blank" 
+               class="hover:scale-110 transition-transform duration-200"
+               title="Twitter">
+              <i class="ri-twitter-fill text-[#1DA1F2] text-4xl"></i>
+            </a>
+            <a href="mailto:bestraissa@gmail.com" 
+               class="hover:scale-110 transition-transform duration-200"
+               title="Email">
+              <i class="ri-mail-fill text-[#D14836] text-4xl"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/Akariza Uwase Best Raissa" target="_blank" 
+               class="hover:scale-110 transition-transform duration-200"
+               title="LinkedIn">
+              <i class="ri-linkedin-box-fill text-[#0A66C2] text-4xl"></i>
+            </a>
+            <a href="https://github.com/Raissa12best" target="_blank" 
+               class="hover:scale-110 transition-transform duration-200"
+               title="GitHub">
+              <i class="ri-github-fill text-[#181717] text-4xl"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-gray-900 text-white text-center py-6 mt-12">
+    <p class="text-sm">&copy; 2025 Best Raissa Akariza. All rights reserved.</p>
+    <p class="text-xs text-gray-400 mt-1">Built with Tailwind CSS & Vite</p>
+  </footer>
+    </body>
+    </html>
